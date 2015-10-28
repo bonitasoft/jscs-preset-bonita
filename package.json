@@ -1,0 +1,23 @@
+{
+  "name": "jscs-preset-bonita",
+  "version": "1.0.0",
+  "description": "JSCS preset for Bonita BPM",
+  "main": "./bonita.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonitasoft/jscs-preset-bonita.git"
+  },
+  "keywords": [
+    "jscs-preset",
+    "BonitaBPM"
+  ],
+  "author": "Julien Reboul <julien.reboul@bonitasoft.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bonitasoft/jscs-preset-bonita/issues"
+  },
+  "homepage": "https://github.com/bonitasoft/jscs-preset-bonita#readme"
+}
