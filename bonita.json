@@ -5,6 +5,9 @@
   "disallowNewlineBeforeBlockStatements": true,
   "disallowKeywords": ["with"],
   "disallowKeywordsOnNewLine": ["else"],
+  "disallowSpaceAfterKeywords": [
+    "function"
+  ],
 
   "disallowSpaceAfterObjectKeys": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
@@ -22,7 +25,18 @@
   "disallowYodaConditions": true,
 
   "maximumLineLength": null,
-  "jsDoc": false,
+  "jsDoc": {
+    "checkAnnotations": "closurecompiler",
+    "checkParamNames": true,
+    "requireParamTypes": true,
+    "checkRedundantParams": true,
+    "checkReturnTypes": true,
+    "checkRedundantReturns": true,
+    "requireReturnTypes": true,
+    "checkTypes": true,
+    "checkRedundantAccess": true,
+    "requireNewlineAfterDescription": true
+  },
 
   "requireCurlyBraces": true,
   "requireCamelCaseOrUpperCaseIdentifiers": true,
@@ -33,7 +47,25 @@
   "requireSemicolons": true,
 
   "requireSpaceAfterBinaryOperators": true,
-  "requireSpaceBeforeBinaryOperators": true,
+  "requireSpaceAfterKeywords": [
+    "if",
+    "else",
+    "return",
+    "for",
+    "while",
+    "do",
+    "switch",
+    "try",
+    "catch"
+  ],
+  "requireSpaceBeforeBinaryOperators": [
+    "=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=",
+    "&=", "|=", "^=", "+=",
+
+    "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&",
+    "|", "^", "&&", "||", "===", "==", ">=",
+    "<=", "<", ">", "!=", "!=="
+  ],
   "requireSpaceBeforeBlockStatements": true,
   "requireSpaceBeforeObjectValues": true,
   "requireSpacesInConditionalExpression": true,

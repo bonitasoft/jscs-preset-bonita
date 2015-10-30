@@ -1,6 +1,6 @@
 {
   "name": "jscs-preset-bonita",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSCS preset for Bonita BPM",
   "main": "./bonita.json",
   "scripts": {
